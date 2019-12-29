@@ -7,8 +7,8 @@ import { RightBar } from "./components/rightbar/rightbar";
 const App: React.FC = () => {
   return (
     <div className="App">
-      <SideBar />
       <div className="wrapper">
+        <SideBar />
         <ContentSection />
         <RightBar />
       </div>

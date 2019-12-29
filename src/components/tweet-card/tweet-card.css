@@ -1,6 +1,7 @@
 .card {
   display: flex;
   flex-direction: row;
+  padding: 0px 15px;
 }
 
 .tweet-content {
