@@ -1,0 +1,10 @@
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.tweet-content {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}

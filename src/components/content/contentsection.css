@@ -1,0 +1,38 @@
+.top-bar {
+  position: sticky;
+  justify-content: flex-start;
+  padding: 10px 0px;
+  border: 1px ridge #e6ecf0;
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  background-color: white;
+}
+
+.home-text {
+  text-align: left;
+  padding: 0px 10px;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  flex: 1;
+  max-width: 600px;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-wrapper {
+  height: 200px;
+}
